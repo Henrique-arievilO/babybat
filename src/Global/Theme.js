@@ -1,8 +1,10 @@
 export const lightTheme = {
-    body: '#d7beee',
-    fontColor: '#08030c'
+    fontColor: '#08030c',
+    primaryColor: '#ba8fe2',
+    secundaryColor: '#d7beee',
 }
 export const darkTheme = {
-    body: '#260f3b',
-    textColor: '#f3ecfa'
+    textColor: '#f3ecfa',
+    primaryColor: '#260f3b',
+    secundaryColor: '#441c69',
 }

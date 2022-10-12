@@ -1,9 +1,10 @@
 import React from 'react';
+import * as S from './style'
 
 export default function Movies() {
     return (
-        <>
-            <h1>Movies</h1>
-        </>
+        <S.Movies>
+            <S.Title>Movies</S.Title>
+        </S.Movies>
     );
 }

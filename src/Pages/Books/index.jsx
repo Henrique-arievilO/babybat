@@ -1,9 +1,10 @@
 import React from 'react';
+import * as S from './style'
 
 export default function Books() {
     return (
-        <>
-            <h1>Books</h1>
-        </>
+        <S.Books>
+            <S.Title>Books</S.Title>
+        </S.Books>
     );
 }

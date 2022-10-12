@@ -1,18 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import * as S from './style'
 
 export default function Nav() {
 
     return (
         <>
-            <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="about">Sobre nós</Link></li>
-                <li><Link to="books">Literatura</Link></li>
-                <li><Link to="songs">Música</Link></li>
-                <li><Link to="movies">Cinema</Link></li>
-                <li><Link to="contactus">Fale conosco</Link></li>
-            </ul>
+            <S.Ul>
+                <S.Li><Link to="/">Home</Link></S.Li>
+                <S.Li><Link to="about">Sobre nós</Link></S.Li>
+                <S.Li><Link to="books">Literatura</Link></S.Li>
+                <S.Li><Link to="songs">Música</Link></S.Li>
+                <S.Li><Link to="movies">Cinema</Link></S.Li>
+                <S.Li><Link to="contactus">Contatos</Link></S.Li>
+            </S.Ul>
         </>
     )
 }

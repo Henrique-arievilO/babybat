@@ -1,9 +1,10 @@
 import React from 'react';
+import * as S from './style'
 
 export default function Songs() {
     return (
-        <>
-            <h1>Songs</h1>
-        </>
+        <S.Songs>
+            <S.Title>Songs</S.Title>
+        </S.Songs>
     );
 }

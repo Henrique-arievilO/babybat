@@ -1,9 +1,10 @@
 import React from 'react';
+import * as S from './style'
 
 export default function Contact() {
     return (
-        <>
-            <h1>Contact Us</h1>
-        </>
+        <S.Contactus>
+            <S.Title>Contact Us</S.Title>
+        </S.Contactus>
     );
 }

@@ -1,10 +1,10 @@
 import styled, { createGlobalStyle } from "styled-components";
-import Khalif from '../assets/font/Khalif.ttf'
+import angelRhapsody from '../assets/font/angelRhapsody.ttf'
 
 export const GlobalStyle = createGlobalStyle`
     @font-face {
-        font-family: 'Khalif';
-        src: url(${Khalif});
+        font-family: 'angelRhapsody';
+        src: url(${angelRhapsody});
     }
 
     *{
@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        background-color: ${props => props.theme.body};
+        background-color: ${props => props.theme.secundaryColor};
         width: 100vw;
         height: 10vh;
 
@@ -45,7 +45,7 @@ export const GlobalStyle = createGlobalStyle`
         //Fonts
 
         --secundaryFont: 'Griffy', cursive;
-        --primaryFont: 'Khalif', sans-serif;
+        --primaryFont: 'angelRhapsody', sans-serif;
 
     }
 `
@@ -53,7 +53,8 @@ export const Toggler = styled.button`
     width: 60px;
     height: 30px;
     margin: 1rem;
-    float: right;
+    position: absolute;
+    right: 0;
     border: none;
     box-shadow: inset 0 0 15px 1px;
     border-radius: 30px;

@@ -1,9 +1,10 @@
 import React from 'react';
+import * as S from './style'
 
 export default function Home() {
     return (
-        <>
-            <h1>Home</h1>
-        </>
+        <S.Home>
+            <S.Title>Home</S.Title>
+        </S.Home>
     );
 }

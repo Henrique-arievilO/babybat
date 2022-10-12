@@ -1,10 +1,11 @@
 import React from 'react'
+import * as S from './style'
 
 export default function Footer() {
 
     return (
-        <>
-            <p>&copy;Desenvolvido com 💜 por Henrique Blutkrähe</p>
-        </>
+        <S.Footer>
+            <S.P>&copy;Desenvolvido com 💜 por Henrique Blutkrähe</S.P>
+        </S.Footer>
     )
 }
