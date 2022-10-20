@@ -42,10 +42,12 @@ export const GlobalStyle = createGlobalStyle`
         --violet800: #260f3b;
         --violet900: #08030c;
 
+        
+
         //Fonts
 
-        --secundaryFont: 'Griffy', cursive;
         --primaryFont: 'angelRhapsody', sans-serif;
+        --secundaryFont: 'Griffy', cursive;
 
     }
 `

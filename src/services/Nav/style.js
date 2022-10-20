@@ -1,10 +1,22 @@
 import styled from 'styled-components'
 
-export const Ul = styled.ul`
-    width: 70%;
+export const Nav = styled.nav`
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+`
+
+export const Ul = styled.ul`
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+
+    @media (max-width: 640px) {
+        display: none;
+    }
 `
 export const Li = styled.li`
     width: 9rem;

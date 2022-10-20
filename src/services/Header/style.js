@@ -2,12 +2,12 @@ import styled from 'styled-components'
 
 export const Header = styled.header`
     width: 100%;
-    height: 10vh;
+    height: 120px;
     padding: 1rem;
-    padding-right: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: ${props => props.theme.primaryColor};
 `
 export const Container = styled.section`

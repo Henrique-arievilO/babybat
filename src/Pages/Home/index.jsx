@@ -3,8 +3,6 @@ import * as S from './style'
 
 export default function Home() {
     return (
-        <S.Home>
-            <S.Title>Home</S.Title>
-        </S.Home>
+        <S.Home></S.Home>
     );
 }
