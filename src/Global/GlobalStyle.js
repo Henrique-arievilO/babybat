@@ -63,6 +63,10 @@ export const Toggler = styled.button`
     cursor: pointer;
     transition: 400ms;
     text-align: left;
+
+    @media (max-width: 640px) {
+        top: 3.5rem;
+    }
 `
 export const SwitchToggle = styled.input`
     width: 60px;

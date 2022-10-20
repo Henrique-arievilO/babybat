@@ -2,8 +2,12 @@ import styled from 'styled-components'
 
 export const About = styled.section`
     width: 100%;
-    height: 85vh;
+    height: calc(100vh - 150px);
     padding: 2rem;
+
+    @media (max-width: 640px) {
+        height: 100%;
+    }
 `
 export const Title = styled.h2`
     font-family: var(--primaryFont);

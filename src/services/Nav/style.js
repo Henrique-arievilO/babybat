@@ -12,7 +12,6 @@ export const Ul = styled.ul`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #000;
 
     @media (max-width: 640px) {
         display: none;

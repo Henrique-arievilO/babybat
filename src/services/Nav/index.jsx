@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ToggleMenu from '../../Components/ToggleMenu'
 import * as S from './style'
 
 export default function Nav() {
@@ -14,7 +15,7 @@ export default function Nav() {
                 <S.Li><Link to="movies">Cinema</Link></S.Li>
                 <S.Li><Link to="contactus">Contatos</Link></S.Li>
             </S.Ul>
-            <button>Menu</button>
+            <ToggleMenu />
         </S.Nav>
     )
 }

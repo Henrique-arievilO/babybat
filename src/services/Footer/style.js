@@ -7,6 +7,7 @@ export const Footer = styled.footer`
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
 `
 export const P = styled.p`
     font-family: var(--secundaryFont);
